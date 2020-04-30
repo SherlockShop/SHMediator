@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66043E6F8BDE18E53CFA42B4 /* libPods-SHMediator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2584B60B6D813E37C272E0F4 /* libPods-SHMediator.a */; };
 		853C6C88245ABA5E00BB98BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C6C87245ABA5E00BB98BC /* AppDelegate.m */; };
 		853C6C8B245ABA5E00BB98BC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C6C8A245ABA5E00BB98BC /* SceneDelegate.m */; };
 		853C6C8E245ABA5E00BB98BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C6C8D245ABA5E00BB98BC /* ViewController.m */; };
@@ -14,9 +15,12 @@
 		853C6C93245ABA6000BB98BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853C6C92245ABA6000BB98BC /* Assets.xcassets */; };
 		853C6C96245ABA6000BB98BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853C6C94245ABA6000BB98BC /* LaunchScreen.storyboard */; };
 		853C6C99245ABA6000BB98BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C6C98245ABA6000BB98BC /* main.m */; };
+		853C6CA2245ABBFC00BB98BC /* SHMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C6CA1245ABBFC00BB98BC /* SHMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AD2CAB85B5BDADB7DAC93C3 /* Pods-SHMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHMediator.release.xcconfig"; path = "Target Support Files/Pods-SHMediator/Pods-SHMediator.release.xcconfig"; sourceTree = "<group>"; };
+		2584B60B6D813E37C272E0F4 /* libPods-SHMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHMediator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		853C6C83245ABA5E00BB98BC /* SHMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		853C6C86245ABA5E00BB98BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		853C6C87245ABA5E00BB98BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,9 @@
 		853C6C95245ABA6000BB98BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853C6C97245ABA6000BB98BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		853C6C98245ABA6000BB98BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		853C6CA0245ABBFC00BB98BC /* SHMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHMediator.h; sourceTree = "<group>"; };
+		853C6CA1245ABBFC00BB98BC /* SHMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHMediator.m; sourceTree = "<group>"; };
+		BE705781F1584C6400468F99 /* Pods-SHMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHMediator.debug.xcconfig"; path = "Target Support Files/Pods-SHMediator/Pods-SHMediator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66043E6F8BDE18E53CFA42B4 /* libPods-SHMediator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +55,8 @@
 			children = (
 				853C6C85245ABA5E00BB98BC /* SHMediator */,
 				853C6C84245ABA5E00BB98BC /* Products */,
+				87B2DDFB5877178361986BB7 /* Pods */,
+				D40C8E862DF473B156074056 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +71,7 @@
 		853C6C85245ABA5E00BB98BC /* SHMediator */ = {
 			isa = PBXGroup;
 			children = (
+				853C6C9F245ABBB400BB98BC /* SHMediator */,
 				853C6C86245ABA5E00BB98BC /* AppDelegate.h */,
 				853C6C87245ABA5E00BB98BC /* AppDelegate.m */,
 				853C6C89245ABA5E00BB98BC /* SceneDelegate.h */,
@@ -76,6 +87,32 @@
 			path = SHMediator;
 			sourceTree = "<group>";
 		};
+		853C6C9F245ABBB400BB98BC /* SHMediator */ = {
+			isa = PBXGroup;
+			children = (
+				853C6CA0245ABBFC00BB98BC /* SHMediator.h */,
+				853C6CA1245ABBFC00BB98BC /* SHMediator.m */,
+			);
+			path = SHMediator;
+			sourceTree = "<group>";
+		};
+		87B2DDFB5877178361986BB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE705781F1584C6400468F99 /* Pods-SHMediator.debug.xcconfig */,
+				1AD2CAB85B5BDADB7DAC93C3 /* Pods-SHMediator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D40C8E862DF473B156074056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2584B60B6D813E37C272E0F4 /* libPods-SHMediator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853C6C9C245ABA6000BB98BC /* Build configuration list for PBXNativeTarget "SHMediator" */;
 			buildPhases = (
+				AD2DB12CD1CE7169EE714A3D /* [CP] Check Pods Manifest.lock */,
 				853C6C7F245ABA5E00BB98BC /* Sources */,
 				853C6C80245ABA5E00BB98BC /* Frameworks */,
 				853C6C81245ABA5E00BB98BC /* Resources */,
@@ -141,6 +179,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD2DB12CD1CE7169EE714A3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHMediator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		853C6C7F245ABA5E00BB98BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,6 +211,7 @@
 			files = (
 				853C6C8E245ABA5E00BB98BC /* ViewController.m in Sources */,
 				853C6C88245ABA5E00BB98BC /* AppDelegate.m in Sources */,
+				853C6CA2245ABBFC00BB98BC /* SHMediator.m in Sources */,
 				853C6C99245ABA6000BB98BC /* main.m in Sources */,
 				853C6C8B245ABA5E00BB98BC /* SceneDelegate.m in Sources */,
 			);
@@ -287,6 +351,7 @@
 		};
 		853C6C9D245ABA6000BB98BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE705781F1584C6400468F99 /* Pods-SHMediator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +368,7 @@
 		};
 		853C6C9E245ABA6000BB98BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD2CAB85B5BDADB7DAC93C3 /* Pods-SHMediator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
